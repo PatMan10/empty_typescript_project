@@ -1,0 +1,14 @@
+{
+  "name": "hello_world",
+  "version": "1.0.0",
+  "description": "trying out typescript",
+  "main": "./compiled/index.js",
+  "scripts": {
+    "compile": "tsc --build --pretty",
+    "start": "node ./compiled",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "PatMan10",
+  "license": "GPL-3.0-or-later"
+}
