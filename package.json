@@ -4,7 +4,7 @@
   "description": "trying out typescript",
   "main": "./compiled/index.js",
   "scripts": {
-    "compile": "tsc --build --pretty",
+    "compile": "tsc --build --pretty ./tsconfig.json",
     "start": "node ./compiled",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
