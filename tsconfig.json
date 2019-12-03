@@ -3,10 +3,12 @@
     "module": "commonjs",
     "outDir": "./compiled",
     "target": "es6",
+    "lib": ["es5", "es6", "dom"],
+    "types": ["node"],
+    "typeRoots": ["node_modules/@types"],
 
     "allowJs": true,
     "removeComments": true,
-    "noEmit": true,
     "strict": true,
     "noImplicitAny": true,
     "strictNullChecks": true,
