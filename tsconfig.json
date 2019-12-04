@@ -2,8 +2,8 @@
   "compilerOptions": {
     "module": "commonjs",
     "outDir": "./compiled",
-    "target": "es6",
-    "lib": ["es5", "es6", "dom"],
+    "target": "es5",
+    "lib": ["dom", "esnext"],
     "types": ["node"],
     "typeRoots": ["node_modules/@types"],
 
