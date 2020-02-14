@@ -1,7 +1,7 @@
 {
-  "name": "hello_world",
+  "name": "empty_typescript_project",
   "version": "1.0.0",
-  "description": "trying out typescript",
+  "description": "Boilerplate TypeScript project.",
   "main": "./compiled/index.js",
   "scripts": {
     "C_R": "tsc --build --pretty ./tsconfig.json; node ./compiled;",
