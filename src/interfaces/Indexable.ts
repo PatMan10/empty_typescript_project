@@ -1,3 +1,3 @@
-export default interface IterableObject {
+export default interface Indexable {
   [key: string]: any;
 }
