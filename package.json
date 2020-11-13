@@ -2,11 +2,11 @@
   "name": "empty_typescript_project",
   "version": "1.0.0",
   "description": "Boilerplate TypeScript project.",
-  "main": "./compiled/index.js",
+  "main": "./build/main/index.js",
   "scripts": {
-    "C_R": "tsc --build --pretty ./tsconfig.json; node ./compiled;",
-    "compile": "tsc --build --pretty ./tsconfig.json",
-    "start": "node ./compiled",
+    "B_S": "tsc --build --pretty ./tsconfig.json; node ./build/main;",
+    "build": "tsc --build --pretty ./tsconfig.json",
+    "start": "node ./build/main",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
