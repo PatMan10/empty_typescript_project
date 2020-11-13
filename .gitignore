@@ -1,3 +1,6 @@
 compiled/
+dist/
+out/
 build/
+
 node_modules/
